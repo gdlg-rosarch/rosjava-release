@@ -1,0 +1,12 @@
+Source: ros-hydro-rosjava
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://wiki.ros.org/rosjava
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosjava
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-rosjava-bootstrap, ros-hydro-rosjava-build-tools, ros-hydro-rosjava-core, ros-hydro-rosjava-extras, ros-hydro-rosjava-messages, ros-hydro-zeroconf-jmdns-suite
+Description: This is a meta package for the official rosjava repositories.
