@@ -1,0 +1,14 @@
+ros-indigo-rosjava (0.2.0-0trusty) trusty; urgency=high
+
+  * updated dependencies for indigo
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Tue, 10 Feb 2015 15:00:00 -0000
+
+ros-indigo-rosjava (0.1.1-0trusty) trusty; urgency=high
+
+  * rosinstalls added
+  * metapackage structure.
+
+ -- Daniel Stonier <d.stonier@gmail.com>  Sun, 22 Sep 2013 15:00:00 -0000
+
+
