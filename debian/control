@@ -1,0 +1,12 @@
+Source: ros-indigo-rosjava
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/rosjava
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rosjava
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-genjava, ros-indigo-rocon-rosjava-core, ros-indigo-rosjava-bootstrap, ros-indigo-rosjava-build-tools, ros-indigo-rosjava-core, ros-indigo-rosjava-extras, ros-indigo-rosjava-messages, ros-indigo-rosjava-test-msgs, ros-indigo-zeroconf-jmdns-suite
+Description: This is a meta package for the official rosjava repositories.
