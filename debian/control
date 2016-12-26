@@ -1,0 +1,12 @@
+Source: ros-kinetic-rosjava
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/rosjava
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rosjava
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-genjava, ros-kinetic-rosjava-bootstrap, ros-kinetic-rosjava-build-tools, ros-kinetic-rosjava-core, ros-kinetic-rosjava-extras, ros-kinetic-rosjava-messages, ros-kinetic-rosjava-test-msgs, ros-kinetic-zeroconf-jmdns-suite
+Description: This is a meta package for the official rosjava repositories.
